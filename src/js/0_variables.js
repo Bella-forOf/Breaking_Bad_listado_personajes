@@ -11,12 +11,13 @@ let favouriteCharacteres = [];
 
 // ESTO PASA AL CARGAR LA PAGINA
 
-// fetch('https://breakingbadapi.com/api/characters')
-//   .then((response) => response.json())
-//   .then((dataResult) => {
-//     characteres = dataResult;
-//     paintcharacteres(characteres);
-//   });
+fetch('./assets/data/data.json')
+  .then((response) => response.json())
+  .then((dataResult) => {
+    characteres = dataResult;
+    paintcharacteres(characteres);
+    console.log(characteres);
+  });
 
 let savedFavourites = JSON.parse(localStorage.getItem('favoroutecharacteres'));
 if (savedFavourites !== null) {
