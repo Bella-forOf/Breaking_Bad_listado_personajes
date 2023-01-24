@@ -24,4 +24,4 @@ if (savedFavourites !== null) {
   favouriteCharacteres = savedFavourites;
   paintcharacteresfav(favouriteCharacteres);
 }
-
+// mm
