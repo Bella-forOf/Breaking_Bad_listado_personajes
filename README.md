@@ -1,7 +1,8 @@
 <h1> Evaluacion Final del modulo 2. </h1>
-##Realizada por Bella Irene Garcia Villegas.
+<h3>Realizada por Bella Irene Garcia Villegas.</h3>
 
-He usadp Started Kit Adalab.
+
+
 
 > **NOTA:** Basado en el Adalab Starter Kit .
 
